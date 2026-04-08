@@ -1,0 +1,23 @@
+{
+  "_comment": "Set 'enabled': false to skip a rule. Override 'severity' to adjust its level.",
+  "org": {
+    "name": "",
+    "licensed_for_p2": true
+  },
+  "rules": {
+    "MFA_ALL_USERS":         { "enabled": true, "severity": "Critical" },
+    "MFA_ADMINS":            { "enabled": true, "severity": "Critical" },
+    "LEGACY_AUTH":           { "enabled": true, "severity": "Critical" },
+    "SIGN_IN_RISK":          { "enabled": true, "severity": "High"     },
+    "USER_RISK":             { "enabled": true, "severity": "High"     },
+    "DEVICE_COMPLIANCE":     { "enabled": true, "severity": "High"     },
+    "GUEST_COVERAGE":        { "enabled": true, "severity": "High"     },
+    "BREAKGLASS_EXCLUSION":  { "enabled": true, "severity": "High"     },
+    "ALL_USER_NO_EXCLUSION": { "enabled": true, "severity": "Medium"   },
+    "DISABLED_POLICIES":     { "enabled": true, "severity": "Low"      },
+    "REPORT_ONLY":           { "enabled": true, "severity": "Medium"   },
+    "SESSION_CONTROLS":      { "enabled": true, "severity": "Medium"   },
+    "NO_CONTROLS":           { "enabled": true, "severity": "Medium"   },
+    "POLICY_OVERLAP":        { "enabled": true, "severity": "Low"      }
+  }
+}
